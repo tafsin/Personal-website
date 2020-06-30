@@ -1,0 +1,110 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0px;
+}
+
+h1{
+    color: hotpink;
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+h2{
+    font-size: 30px;
+   
+}
+p{
+    color: dimgray;
+}
+h2{
+    text-align: center;
+    font-weight: 600;
+}
+.half-width{
+    width: 35%;
+    float: left;
+  
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 10px;
+
+
+}
+.half-width img{
+    width:100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(180deg,lightpink,hotpink);
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 40px,25px;
+
+}
+section{
+    height: 500px;
+}
+.Bio{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    
+    
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: 
+    
+}
+.onethird{
+    width: 30%;
+    float: left;
+    padding: 5px;
+    
+}
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+.onethird img{
+    width: 100%;
+}
+#Bg{
+    margin-top: 10%;
+}
+.row{
+    background-image: url(images/biography-bg.png);
+}
+h4{
+    text-align: center;
+    font-weight: 700;
+}
+h5{
+    text-align: center;
+    color: gray;
+}
+.cont-info{
+ 
+    background-image: linear-gradient(180deg,lightpink,hotpink);
+    color: white;
+    border-radius: 5px;
+   text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+   
+
+}
+span{
+    font-size: 25px;
+    font-weight: 700;
+
+}
+#makecenter{
+    text-align: center;
+    font-size: small;
+}
+.foot{
+    background-image: url(images/footer-bg.png);
+}
