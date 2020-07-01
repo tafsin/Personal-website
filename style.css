@@ -114,3 +114,12 @@ span{
     background-image: url(images/footer-bg.png);
     background-position: center;
 }
+#social{
+    text-align: center;
+    font-weight: 700;
+}
+
+.socicon{
+    float: left;
+    
+}
