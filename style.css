@@ -40,6 +40,7 @@ h2{
     border-radius: 5px;
     font-weight: 700;
     padding: 40px,25px;
+    height: 30px;
 
 }
 section{
@@ -53,14 +54,15 @@ section{
 }
 .top-banner{
     background-image: url("images/header-bg.png");
-    background-repeat: 
+    background-repeat:no-repeat;
+    background-position: left; 
     
 }
 .onethird{
     width: 30%;
     float: left;
-    padding: 5px;
-    
+    padding :20px,10px;
+    margin-left: 30px;
 }
 
     .row::after {
@@ -76,6 +78,7 @@ section{
 }
 .row{
     background-image: url(images/biography-bg.png);
+
 }
 h4{
     text-align: center;
@@ -93,6 +96,8 @@ h5{
    text-align: center;
   margin-left: 30%;
   margin-right: 30%;
+  height: 100px;
+  padding-top: 30px;
    
 
 }
@@ -107,4 +112,5 @@ span{
 }
 .foot{
     background-image: url(images/footer-bg.png);
+    background-position: center;
 }
